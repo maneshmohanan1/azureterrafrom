@@ -7,7 +7,7 @@
 terraform {
     backend "azurerm" {
         resource_group_name     =   "Jenkins"
-        storage_account_name    =   "tfbackend2020"
+        storage_account_name    =   "tfbackend2021"
         container_name          =   "tfremote"
         key                     =   "terraform.tfstate"
     }
